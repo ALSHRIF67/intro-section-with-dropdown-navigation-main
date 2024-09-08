@@ -1,0 +1,590 @@
+s* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.btn {
+
+    --White: hsl(0, 0%, 98%);
+    --Medium-Gray: hsl(0, 0%, 41%);
+    --Almost-Black: hsl(0, 0%, 8%);
+}
+
+.btn {
+    width: 100%;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 2px;
+    background: var(--accent-color);
+    height: 61px;
+    margin-top: 20px;
+}
+
+body {
+    background-color: hsl(120, 16%, 96%);
+    ;
+
+}
+
+header {
+    display: flex;
+    margin-top: 5px;
+
+}
+
+.logo {
+    margin-top: 40px;
+    font-size: 25px;
+    margin-left: 40px;
+
+}
+
+.navb {
+    display: none;
+}
+
+.feat-me.open {
+    display: none;
+}
+
+.com-up {
+    display: none;
+}
+
+.main-header {
+    margin-left: 50px;
+    margin-top: 23px;
+
+}
+
+.title-names a {
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.down {
+    position: absolute;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 65px;
+}
+
+.menu3 {
+    position: absolute;
+    margin-top: 10px;
+    display: flex;
+    margin-left: 85px;
+
+
+}
+
+.links {
+    margin-right: 800px;
+    display: flex;
+    margin-left: 30px;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+
+}
+
+.login {
+    text-transform: capitalize;
+    margin-left: 50px;
+}
+
+.under :hover {
+    text-decoration: underline;
+    color: blue;
+
+}
+
+.login-title {
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+
+
+}
+
+.login-titles a {
+    margin-right: 40px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--Almost-Black);
+
+}
+
+
+.resigter {
+    border: 2px solid;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-transform: capitalize;
+    padding-bottom: 13px;
+
+
+}
+
+.resigter:hover {
+    background-color: yellow;
+
+
+}
+
+.resigter a {
+    top: 20px;
+}
+
+.body-text {
+    margin-top: 160px;
+    display: flex;
+    margin-left: 100px;
+
+}
+
+.text h1 {
+    font-size: 97px;
+    font-weight: 700;
+}
+
+.title-h1 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.text p {
+    margin-top: 30px;
+    color: var(--Medium-Gray);
+    font-size: 30px;
+
+}
+
+.text button {
+    width: 50%;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: -10px;
+    padding-right: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.image-hero-desktop {
+    margin-top: -130px;
+    margin-left: 400px;
+    height: 600px;
+    width: 600px;
+
+}
+
+.icon {
+    display: flex;
+    width: 15px;
+    height: 20px;
+    margin-top: 550px;
+    margin-left: -1570px;
+}
+
+.picon {
+    display: none;
+}
+
+.icon img {
+    margin-right: 30px;
+}
+
+.image-phone {
+    display: none;
+}
+
+.menu1 {
+    display: none;
+}
+
+.feat-me {
+    display: none;
+}
+
+.menu1.open {
+    width: 55px;
+    margin-top: 70px;
+    margin-left: 170px;
+    background-color: white;
+    padding-left: 50px;
+    color: var(--Almost-Black);
+    padding-right: 70px;
+    padding-bottom: 40px;
+    position: absolute;
+    display: block;
+    border-radius: 10px;
+    justify-content: space-between;
+
+}
+
+.menu2 {
+    display: none;
+
+}
+
+.menu2.open {
+    display: block;
+    margin-top: 80px;
+    margin-left: 350px;
+    background-color: white;
+    padding-left: 50px;
+    color: var(--Almost-Black);
+    padding-right: 30px;
+    padding-bottom: 30px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.menu-names {
+    margin-top: 20px;
+    list-style: none;
+
+}
+
+.menu-names li {
+    margin-left: -50px;
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.menu-names img {
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+
+.menu-names.active {
+    left: 2000rem;
+    transition: 4s linear;
+}
+
+
+.phone {
+    display: none;
+}
+
+
+
+
+
+
+/* phone tab*/
+@media (max-width: 430px) {
+
+    .picon {
+        display: flex;
+        position: absolute;
+        margin-top: 900px;
+        margin-left: -50px;
+    }
+
+    .picon img {
+        margin-left: 50px;
+    }
+
+    .main-header {
+        display: none;
+        margin-top: 550px;
+
+    }
+
+    .logo {
+        margin-top: 70px;
+        justify-content: space-between;
+
+    }
+
+    .login {
+        display: none;
+
+    }
+
+    .image-hero-desktop {
+        display: block;
+    }
+
+    .body-text {
+        display: flex;
+
+    }
+
+    .text {
+        margin-top: 550px;
+        margin-right: -1000px;
+    }
+
+    .title-h1 {
+        display: none;
+    }
+
+    .text h1 {
+        font-size: 50px;
+        margin-right: 30px;
+        margin-left: -40px;
+    }
+
+    .text h1 {
+        margin-top: 0px;
+    }
+
+    .image-phone {
+        margin-top: -1400px;
+        margin-left: -120px;
+        height: 1%;
+        width: 5px;
+        margin-right: 300px;
+        z-index: 0;
+    }
+
+    .btn {
+        border: 2px solid;
+        border-radius: 25px;
+        padding-top: 40px;
+        padding-left: 150px;
+        padding-right: 200px;
+        margin-top: 40px;
+        padding-bottom: 40px;
+        left: -200px;
+        margin-left: 100px;
+
+
+    }
+
+    .text button {
+        width: 100%;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-left: -10px;
+        padding-right: 10px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+
+    .phone nav {
+        display: none;
+    }
+
+
+    .phone .open {
+        display: flex;
+        margin-top: 0px;
+        width: 150%;
+        position: absolute;
+        margin-left: 400px;
+        padding-bottom: 500%;
+        background-color: white;
+    }
+
+    .phone .open ul {
+        margin-top: 200px;
+        margin-left: 190px;
+
+    }
+
+    nav.open img {
+        width: 20px;
+    }
+
+    .phone .open ul {
+        display: block;
+        list-style: none;
+        margin-left: 20px;
+
+    }
+
+    .phone .open li a {
+        text-align: center;
+        color: var(--Medium-Gray);
+        text-decoration: none;
+        font-size: 30px;
+
+    }
+
+    .phone .open li {
+        margin-bottom: 30px;
+    }
+
+    .phone .open li img {
+        margin-left: 150px;
+        position: absolute;
+        width: 20px;
+    }
+
+    .phone .open .closes {
+        display: none;
+    }
+
+    .phone .open .oicon {
+        display: flex;
+        background-color: greenyellow;
+        z-index: 1;
+        margin-left: 300px;
+        margin-top: 30px;
+
+    }
+
+    .oicon {
+        display: none;
+        background-color: red;
+        z-index: 0;
+    }
+
+    .phone.closes {
+        margin-left: 400px;
+    }
+
+    .login-name {
+        font-size: 20px;
+        text-transform: capitalize;
+        margin-top: 250px;
+        margin-bottom: 400px;
+        margin-right: 100px;
+        position: absolute;
+        margin-left: 130px;
+    }
+
+    .login-text {
+        display: block;
+        margin-top: 600px;
+        margin-bottom: 40px;
+    }
+
+    .resigter {
+        margin-top: 350px;
+        margin-right: 40px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        padding-left: 100px;
+        padding-right: 150px;
+        margin-right: 200px;
+        text-align: left;
+        display: block;
+        position: absolute;
+        margin-left: 50px;
+
+
+    }
+
+    .resigter li {}
+
+    .title-names a {
+        display: block;
+        color: var(--White);
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+
+    .menu1.open {
+
+        display: none;
+
+    }
+
+    .menu-names {
+        font-size: 16px;
+    }
+
+    .menu2.open {
+        display: none;
+    }
+
+    .menu2 {
+        display: none;
+    }
+
+
+    .phone {
+        display: block;
+    }
+
+    .phone.open {
+        display: none;
+    }
+
+    .closes {
+        margin-top: 60px;
+        margin-left: 350px;
+        position: absolute;
+        margin-top: 30px;
+    }
+
+    .closes .open {
+        display: none;
+    }
+
+    .feat-me.open {
+        display: block;
+        position: absolute;
+        background-color: white;
+        width: 20px;
+        height: 110px;
+        margin-left: 580px;
+        z-index: 1;
+        width: 160px;
+        margin-top: 250px;
+    }
+
+    .feat-me.open li {
+        list-style: none;
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .feat-me.open img {
+        margin-right: 10px;
+    }
+
+    .icon {
+        display: block;
+        width: 10px;
+        height: 10px;
+        display: flex;
+        background-color: green;
+        z-index: 1;
+    }
+
+    .com-up.open {
+        display: block;
+        position: absolute;
+        background-color: white;
+        margin-top: 300px;
+        margin-left: 580px;
+        width: 110px;
+        height: 130px;
+        z-index: 1;
+    }
+
+    .com-up.open li {
+        margin-left: -20px;
+        list-style: none;
+        font-size: 20px;
+        margin-bottom: 10px;
+
+    }
+}
